@@ -10,7 +10,8 @@
 
   "repository": {
   "type": "git",
-  "url": "https://github.com/jhalucky/reality-check"
+  "url": "https://github.com/jhalucky/reality-check",
+  "license": "MIT"
 },
 
   "categories": [
@@ -20,6 +21,7 @@
     "onStartupFinished"
   ],
   "main": "./dist/extension.js",
+  
   "contributes": {
     "commands": [
       {
