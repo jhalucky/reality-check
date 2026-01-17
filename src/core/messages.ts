@@ -1,14 +1,11 @@
-export const REALITY_MESSAGES = [
-  "You’ve been staring at this for too long.",
-  "This bug is not worth your mental health.",
-  "Stand up. Drink water.",
-  "You are overthinking this.",
-  "Close the laptop. Two minutes.",
-  "Touch grass (respectfully)."
+const messages = [
+  "Be honest — are you coding or just staring?",
+  "Still thinking… or just procrastinating?",
+  "This was supposed to take 10 minutes.",
+  "Did you forget what you were trying to solve?",
+  "Another tab won, didn’t it?"
 ];
 
 export function getRandomMessage(): string {
-  return REALITY_MESSAGES[
-    Math.floor(Math.random() * REALITY_MESSAGES.length)
-  ];
+  return messages[Math.floor(Math.random() * messages.length)];
 }

@@ -2,7 +2,7 @@
   "name": "reality-check",
   "displayName": "Reality Check",
   "description": "Brutally honest reality checks while coding",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "luckyjha",
   "engines": {
     "vscode": "^1.108.1"
